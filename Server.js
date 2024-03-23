@@ -8,7 +8,7 @@ const connectdb = require("./Utility/db");
 const authmiddleware = require("./middleware/Auth");
 
 const corsOption = {
-    origin: "https://mern-client.pages.dev/",
+    origin: "https://mern-client.pages.dev",
     methods: "GET, POST, PUT, DELETE, PATCH ,HEAD",
     Credentials: true,
 };
